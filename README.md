@@ -1,7 +1,7 @@
 # buffer-timing
 
 Intresting project to compare read/write times with different buffers. Output is posted below:
-
+```
 [alex@archlinux apue-misc-code]$ du -sh shakespeare.txt 
 63M	shakespeare.txt
 [alex@archlinux apue-misc-code]$ ./main
@@ -31,4 +31,4 @@ Intresting project to compare read/write times with different buffers. Output is
 8388608 bytes took 0.061798 seconds
 16777216 bytes took 0.055863 seconds
 33554432 bytes took 0.045644 seconds
-
+```
